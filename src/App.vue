@@ -1,9 +1,7 @@
 <script setup>
-    import Clock from './components/Clock.vue'
+import Cards from './components/Cards.vue';
 </script>
 
 <template>
-    <Clock />
+  <Cards />
 </template>
-
-
