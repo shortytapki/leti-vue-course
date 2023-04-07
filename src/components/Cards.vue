@@ -1,6 +1,6 @@
 <script setup>
 import Card from './Card.vue';
-import { reactive, computed, watch, ref } from 'vue';
+import { reactive, computed } from 'vue';
 import { getLatestPosts } from '../apiService';
 
 const data = reactive({
